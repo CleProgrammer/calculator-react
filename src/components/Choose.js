@@ -3,15 +3,8 @@ import React from 'react'
 function Choose() {
   const a = (cl) => document.querySelector(cl)
 
-  const cleanInput = () => {
-    a('.number1').innerHTML = ''
-    a('.number2').innerHTML = ''
-    a('.res').innerHTML = ''
-  }
-
   const sinalsoma = () => {
     a('.sinal').innerHTML = '+'
-    cleanInput()
     a('.sinalsoma').setAttribute('id', 'idsoma')
     a('.sinalsubt').removeAttribute('id')
     a('.sinaldivi').removeAttribute('id')
@@ -20,7 +13,6 @@ function Choose() {
 
   const sinalsubt = () => {
     a('.sinal').innerHTML = '-'
-    cleanInput()
     a('.sinalsubt').setAttribute('id', 'idsoma')
     a('.sinalsoma').removeAttribute('id')
     a('.sinaldivi').removeAttribute('id')
@@ -29,7 +21,6 @@ function Choose() {
 
   const sinaldivi = () => {
     a('.sinal').innerHTML = '/'
-    cleanInput()
     a('.sinaldivi').setAttribute('id', 'idsoma')
     a('.sinalsoma').removeAttribute('id')
     a('.sinalsubt').removeAttribute('id')
@@ -38,7 +29,6 @@ function Choose() {
 
   const sinalmulti = () => {
     a('.sinal').innerHTML = 'x'
-    cleanInput()
     a('.sinalmulti').setAttribute('id', 'idsoma')
     a('.sinalsoma').removeAttribute('id')
     a('.sinalsubt').removeAttribute('id')
