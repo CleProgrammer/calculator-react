@@ -6,6 +6,9 @@ function KeyboardLeft() {
     const catchNumber = (n) => {
         if(n.target.id === 'left') {
             a('.number1').innerHTML += n.target.innerHTML
+            let audioClick = document.createElement('audio')
+            audioClick.src ='click.mp3'
+            audioClick.play()
         }
     }
 

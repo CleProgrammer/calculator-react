@@ -4,8 +4,8 @@ function Choose() {
   const a = (cl) => document.querySelector(cl)
 
   const cleanInput = () => {
-    a('.number1').value = ''
-    a('.number2').value = ''
+    a('.number1').innerHTML = ''
+    a('.number2').innerHTML = ''
     a('.res').innerHTML = ''
   }
 

@@ -6,6 +6,9 @@ function KeyboardRight() {
     const catchNumber = (n) => {
         if(n.target.id === 'right') {
             a('.number2').innerHTML += n.target.innerHTML
+            let audioClick = document.createElement('audio')
+            audioClick.src ='click.mp3'
+            audioClick.play()
         }
     }
 
