@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 32em;
+    background-color: black;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid orangered;
+    border-radius: 15px;
+}
+
+h1 {
+    color: orangered;
+}
+
+button {
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: black;
+    border: 2px solid orangered;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+.number1 {
+    background-color: white;
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.number2 {
+    background-color: white;
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section1 {
+    display: flex;
+    height: 50px;
+    width: 104%;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.choose-sinal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 98%;
+    margin-bottom: 30px;
+}
+
+.sinal {
+    width: 50px;
+    height: 80px;
+    color: white;
+}
+
+#idsoma {
+    background-color: orangered;
+    color: white;
+}
+
+.keyboard-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    width: 25%;
+    height: 100%;
+}
+
+.keyboard-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    width: 25%;
+    height: 100%;
+}
+
+.num1,
+.num2,
+.num3,
+.num4,
+.num5,
+.num6,
+.num7,
+.num8,
+.num9,
+.num0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+    background-color: black;
+    border: 1px solid orangered;
+}
+
+.section2 {
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+}
+
+.section2-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.res {
+    width: 93%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+}
