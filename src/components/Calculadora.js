@@ -2,6 +2,8 @@ import '../components/Calculadora.css'
 import operações from '../operações/operacoes'
 import Choose from './Choose'
 import Clean from './Clean'
+import CleanLeft from './CleanLeft'
+import CleanRight from './CleanRight'
 import KeyboardLeft from './KeyboardLeft'
 import KeyboardRight from './KeyboardRight'
 
@@ -11,9 +13,11 @@ function Calculadora() {
       <h1>CALCULADORA</h1>
       <Choose />
       <div className='section1'>
+        <CleanLeft />
         <div className='number1'></div>
         <p className='sinal'></p>
         <div className='number2'></div>
+        <CleanRight />
       </div>
 
       <div className='section2'>
